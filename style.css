@@ -1,0 +1,175 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-section{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color:white;
+}
+
+.navigation-bar{
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.portfolio-section h1{
+  margin-top: 50px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.main-container{
+  position: relative;
+  top: 75px;
+}
+.brand{
+  font-size: 30px;
+  font-family: Arial black;
+  font-variant: small-caps;
+  color: blue;
+}
+
+.navmenu{
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+
+.navmenu:hover{
+  text-decoration: underline 2px solid black;
+  text-underline-offset: 6px;
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#home{
+  height: 400px;
+  background-image: url("F:\Photo.png");
+  background-repeat: no-repeat;
+  background-size: 39%;
+  background-position: 100% 10%;
+  border: none;
+}
+
+#home-info{
+  position: absolute;
+  top: 20px;
+  width: 400px;
+  height: 250px;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+
+.info{
+  font-weight: bolder;
+  color:arial black;
+
+}
+
+.rsmbtn{
+  height: 40px;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: darkblue;
+  color: white;
+  transition-duration: 1s;
+}
+
+.rsmbtn:hover{
+  background-color: white;
+  color: darkblue;
+  border: 3px solid darkblue;
+  transform: scale(1.1);
+}
+
+
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.designation
+{
+ font-weight: bolder;
+ font-family: Arial black;
+  color:darkblue; 
+  
+}
