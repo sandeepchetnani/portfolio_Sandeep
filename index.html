@@ -11,6 +11,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
 	<title>Sandeep Portfolio</title>
 </head>
@@ -69,10 +70,86 @@
 	</div></div>
 	</section>
 	<section id="skills" class="portfolio-section">
-		<h1>Skills</h1>
+		<h1 class="heading">Skills</h1>
+		<table class="tb1" height="450px" width="90%" cellspacing="50px">
+			<tr align="Centre" valign="top">
+				<div class="borderskills">
+					<td width=50% data-aos="slide-right">
+						<h2 class="skills-subheading">Languages</h2>
+						<p class="detailedskills">
+							Core Java, C, C++, Python, HTML, CSS, JavaScript, SQL
+						</p>
+					</td>
+				</div>
+				<div class="borderskills">
+					<td data-aos="slide-left">
+						<h2 class="skills-subheading">API's & Frameworks</h2>
+						<p class="detailedskills">
+						Collection, Stream API, REST API, Spring, Hibernates, Servlets, JDBC, SpringBoot, JSP, ReactJS</p>
+					</td>
+				</div>
+			</tr>
+		  <tr align="Centre" valign="top">
+		  	<div class="borderskills">
+		  		<td data-aos="slide-right">
+		  			<h2 class="skills-subheading">Tools</h2>
+		  			<p class="detailedskills">
+		  				VS Code, Eclipse, Git, Github, Netbeans, Mysql workbench, MongoDB, Tomcat, Maven.
+		  			</p>
+		  		</td>
+		  	</div>
+		  	<div class="borderskills">
+		  		<td data-aos="slide-left">
+		  			<h2 class="skills-subheading">Operating Systems</h2>
+		  			<p class="detailedskills">
+		  				Windows, Android, ios, Linux, Ubuntu.
+		  			</p>
+		  		</td>
+		  	</div>
+		  </tr>
+		</table>
 	</section>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	duration:2000
+    });
+  </script>
 	<section id="project" class="portfolio-section">
-		<h1>Projects</h1>
+		<h1 class="heading">Projects</h1>
+		<div class="card-deck">
+  <div class="card">
+    <img src="" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
 	</section>
 	<section id="contact" class="portfolio-section">
 		<h1>Contact</h1>
