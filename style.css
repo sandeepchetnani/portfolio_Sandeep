@@ -85,7 +85,7 @@ html{
 
 #home{
   height: 450px;
-  background-image: url("https://github.com/sandeepchetnani/portfolio_Sandeep/blob/main/Photo.png?raw=true");
+  background-image: url("https://github.com/sandeepchetnani/portfolio_Sandeep/blob/main/photo12.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: 39%;   
   background-position: 100% 10%;
@@ -204,6 +204,7 @@ background-color: whitesmoke;
   animation-name: zoom;
   width: 430px;
   animation-iteration-count: 1000;
+  height: 280px;
 }
 @keyframes zoom{
   100%{
